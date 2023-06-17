@@ -1,3 +1,8 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  text-align: center;
+  border-color: black;
+}
