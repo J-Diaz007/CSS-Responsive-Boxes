@@ -2,7 +2,28 @@ body {
   background: blanchedalmond;
 }
 
-.container {
-  text-align: center;
-  border-color: black;
+div {
+  min-height: 200px;
 }
+
+@media (min-width:600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gray;
+    text-align: center;
+    border-color: black;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: gray;
+    text-align: center;
+    border-color: black;
+  }
+}  
