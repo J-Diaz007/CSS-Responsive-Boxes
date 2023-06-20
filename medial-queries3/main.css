@@ -1,3 +1,62 @@
+* {
+    
+}
+
 body {
   background: peachpuff;
+  min-height: 100vh;
+  border: 2px solid black;
+
+}
+
+.container {
+  
+}
+
+div > div {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+}
+
+.a {
+  
+}
+
+.b, .c, .d {
+  
+}
+
+.e, .f, .g {
+
+}
+
+.h {
+  
+}
+
+@media (max-width: 600px) {
+  div > div {
+
+  }
+
+  .a {
+  
+  }
+  
+  .b, .c, .d {
+    
+  }
+  
+  .e, .f, .g {
+  
+  }
+  
+  .h {
+    
+  }
 }
