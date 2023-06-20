@@ -1,25 +1,19 @@
-* {
-    
-}
-
 body {
   background: peachpuff;
-  min-height: 100vh;
   border: 2px solid black;
-
+  min-height: 100vh;
 }
 
 .container {
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 div > div {
   border: 2px solid black;
   margin: 10px;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 300px;
+  text-align: center;
   font-size: 4em;
 }
 
